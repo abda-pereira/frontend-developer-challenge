@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Abda Pereira - Linx Impulse 2019</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="container">
+    <h1 class="header-title"> <small>uma seleção de produtos</small><br> especial para você </h1>
+    <p class="header-subtitle">Todos os produtos foram selecionados a partir da sua navegação. Aproveite!</p>
+    <nav class="header-navigation">
+      <ul class="header-menu">
+        <li><a class="btn header-button" href="https://linx.com.br" target="_blank">Conheça a Linx</a></li>
+        <li><a class="btn header-button" href="https://github.com/abda-pereira/frontend-developer-challenge"
+            target="_blank">Ajude o algoritmo</a></li>
+        <li><a class="btn header-button" href="#products">Seus produtos</a></li>
+        <li><a class="btn header-button" href="#share">Compartilhe</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="products" class="container products">
+      <p class="products-title">Sua seleção especial</p>
+      <div class="products-list">
+
+      </div>
+      <div class="products-loading">
+          <svg xmlns="http://www.w3.org/2000/svg"
+          style="margin:auto;background:#fff" width="200" height="200" viewBox="0 0 100 100"
+          preserveAspectRatio="xMidYMid" display="block">
+          <rect x="17.5" y="25.2034" width="15" height="49.5932" fill="#707070">
+            <animate attributeName="y" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="18;30;30" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" begin="-0.25s"></animate>
+            <animate attributeName="height" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="64;40;40" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" begin="-0.25s"></animate>
+          </rect>
+          <rect x="42.5" y="23.0551" width="15" height="53.8898" fill="#707070">
+            <animate attributeName="y" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="20.999999999999996;30;30" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" begin="-0.125s"></animate>
+            <animate attributeName="height" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="58.00000000000001;40;40" keySplines="0 0.5 0.5 1;0 0.5 0.5 1" begin="-0.125s"></animate>
+          </rect>
+          <rect x="67.5" y="30" width="15" height="40" fill="#707070">
+            <animate attributeName="y" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="20.999999999999996;30;30" keySplines="0 0.5 0.5 1;0 0.5 0.5 1"></animate>
+            <animate attributeName="height" repeatCount="indefinite" dur="1.25s" calcMode="spline" keyTimes="0;0.5;1"
+              values="58.00000000000001;40;40" keySplines="0 0.5 0.5 1;0 0.5 0.5 1"></animate>
+          </rect>
+        </svg>
+      </div>
+      <button class="btn-v1 products-button"> Ainda mais produtos aqui! </button>
+    </section>
+    <section id="share" class="container share">
+      <p class="share-title">Compartilhe a novidade</p>
+      <p class="share-subtitle">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+      <form class="share-form" action="#" onsubmit="alert('Enviado com sucesso!');">
+        <div class="share-div">
+          <label for="name">Nome do seu amigo:</label><br>
+          <input id="name" type="text" name="name" required>
+        </div>
+        <div class="share-div">
+          <label for="email">E-mail:</label><br>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <input type="submit" class="btn btn-v1" value="Enviar agora" />
+      </form>
+    </section>
+  </main>
+  <footer class="container footer">
+    <p class="footer-copyright"> Testando suas habilidades em HTML, CSS e JS. <br> Linx Impulse <br> 2019 </p>
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
